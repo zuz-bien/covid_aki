@@ -1,0 +1,45 @@
+---
+title: "readme"
+author: "Zuzie"
+date: "19/02/2021"
+output: html_document
+---
+File names:
+
+1. libraries.R
+- contains all packages which are used in the rest of the scripts 
+- read in first 
+
+2. functions.R
+- contains all the custom-made functions
+- read in second to ensure code runs smoothly down the line 
+
+3. early_aki_detection.R 
+- detection and stage assignment of early AKI cases
+
+4. early_aki_analysis.R
+- final dataframe preparation (all_pt.xlsx)
+- table one for primary analysis 
+- survival analysis (primary analysis)
+- figures S2A-D + statistical tests 
+
+5. survival_analysis_90_days.R
+- contains survival analysis to 90 days 
+
+6. aki_risk_factors.R
+- logistic regression analysis of AKI risk factors 
+
+7. secondary_outcomes.R
+- logistic regression for secondary outcomes 
+
+8. trajectories.R 
+- analysis of AKI trajectories 
+
+9. sensitivity_analysis.R
+- sensitivity analysis only including patients with known baseline SCr 
+- careful - things are named the same as in the main analysis (for ease of repeating) but outputs have distinct names 
+
+
+
+
+
